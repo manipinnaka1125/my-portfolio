@@ -20,6 +20,7 @@ function Projects() {
               isBlog={false}
               title="Coming Soon: Integrated Resume Builder"
               description="A project aimed at integrating resume building with various companies like Google, allowing users to create resumes on our website and easily apply for jobs."
+            ghLink="https://github.com/manipinnaka1125/"
             />
           </Col>
           <Col md={4} className="project-card">
