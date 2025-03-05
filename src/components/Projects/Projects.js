@@ -15,14 +15,35 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-        <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
+            <ProjectCard
+              isBlog={false}
+              title="Learning Management System (LMS)"
+              description="A full-featured LMS with course management, authentication, and role-based access using React, Spring Boot, and MySQL."
+              ghLink="https://github.com/manipinnaka1125/lms"
+              demoLink="https://learningmanagementsystem1.netlify.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              isBlog={false}
+              title="YNJ Homes Real Estate Website"
+              description="A real estate website with property listings, OTP-based authentication, and an admin dashboard built using React and Spring Boot."
+              ghLink="https://github.com/manipinnaka1125/ynjhomes"
+              demoLink="https://ynjhomes.netlify.app/"
+            />
+          </Col>
+          
+          <Col md={4} className="project-card">
             <ProjectCard
               isBlog={false}
               title="Coming Soon: Integrated Resume Builder"
               description="A project aimed at integrating resume building with various companies like Google, allowing users to create resumes on our website and easily apply for jobs."
-            ghLink="https://github.com/manipinnaka1125/"
+              ghLink="https://github.com/manipinnaka1125/"
             />
           </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               isBlog={false}
@@ -62,8 +83,6 @@ function Projects() {
               demoLink="https://uranus-sigma.vercel.app/"
             />
           </Col>
-
-          
         </Row>
       </Container>
     </Container>
