@@ -19,38 +19,41 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I’ve developed a deep passion for programming, and I’m constantly learning and growing.
+              I’m a passionate full-stack developer with a strong background in software engineering and DevOps.
               <br />
               <br />
-              I am proficient in classics like
+              I am proficient in languages like
               <i>
-                <b className="purple"> C++ and Java. </b>
+                <b className="purple"> C++, Java, and JavaScript. </b>
               </i>
               <br />
               <br />
-              My areas of interest include building innovative
+              My expertise includes developing scalable
               <i>
-                <b className="purple"> Web Technologies and Products </b>
+                <b className="purple"> Web Applications and Enterprise Solutions </b>
               </i>
-              as well as exploring various fields related to
-              <i>
-                <b className="purple"> tech innovations. </b>
-              </i>
+              using modern frameworks and technologies.
               <br />
               <br />
-              I love developing products with 
+              I specialize in
               <i>
-                <b className="purple"> the MERN Stack </b>
+                <b className="purple"> MERN Stack and Java Full-Stack Development </b>
               </i>
-              and I am enthusiastic about
+              with <b className="purple">React.js</b> and <b className="purple">Spring Boot</b>.
+              <br />
+              <br />
+              Additionally, I am well-versed in
               <i>
-                <b className="purple"> Modern JavaScript Libraries and Frameworks. </b>
+                <b className="purple"> DevOps tools and automation </b>
               </i>
-              I am eager to learn new frameworks and contribute to open source projects.
+              such as <b className="purple">Jenkins, Ansible, and Terraform</b> for CI/CD and infrastructure management.
+              <br />
+              <br />
+              I also have an interest in
               <i>
-                <b className="purple"> React.js </b>
+                <b className="purple"> AI/ML and Cloud Computing </b>
               </i>
-              is one of my favorites.
+              and am constantly learning and working on innovative projects in these fields.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
