@@ -19,9 +19,11 @@ function Projects() {
             <ProjectCard
               isBlog={false}
               title="Learning Management System (LMS)"
+             techStack="React, Spring Boot, MySQL"
               description="A full-featured LMS with course management, authentication, and role-based access using React, Spring Boot, and MySQL."
               ghLink="https://github.com/manipinnaka1125/lms"
               demoLink="https://learningmanagementsystem1.netlify.app/"
+             
             />
           </Col>
 
@@ -30,8 +32,49 @@ function Projects() {
               isBlog={false}
               title="YNJ Homes Real Estate Website"
               description="A real estate website with property listings, OTP-based authentication, and an admin dashboard built using React and Spring Boot."
+                techStack="React, Spring Boot, MySQL"
               ghLink="https://github.com/manipinnaka1125/ynjhomes"
               demoLink="https://ynjhomes.netlify.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              isBlog={false}
+              title="Airline Reservation System"
+              description="A web application for booking and managing airline reservations."
+                techStack="React.js,node.js, express,mongodb"
+              ghLink="https://github.com/manipinnaka1125/airline-main-f--routes"
+              demoLink="https://airline-main-f-routes-cr8m.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              isBlog={false}
+              title="Electricity Billing System"
+
+              description="A Java-based electricity billing, featuring user authentication, bill generation, and payment tracking."
+                techStack="Java EE,JSP,JPA,SQL"
+              ghLink="https://github.com/manipinnaka1125/probilling2"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              isBlog={false}
+              title="Uranus Website"
+              description="Developed the homepage for the Uranus website, focused on systematic altruism."
+              techStack="react.js,node.js,mongodb,express.js"
+              ghLink="https://github.com/manipinnaka1125/uranus"
+              demoLink="https://uranus-sigma.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              isBlog={false}
+              title="Crypto Meme-Token Website"
+              description="A website providing information about various crypto meme coins and crypto wallets."
+              techStack="react.js,node.js,mongodb,express.js"
+              ghLink="https://github.com/manipinnaka1125/phase2"
+              demoLink="https://crypto-meme-token99.vercel.app/"
             />
           </Col>
           
@@ -44,25 +87,9 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              isBlog={false}
-              title="Airline Reservation System"
-              description="A web application for booking and managing airline reservations."
-              ghLink="https://github.com/manipinnaka1125/airline-main-f--routes"
-              demoLink="https://airline-main-f-routes-cr8m.vercel.app/"
-            />
-          </Col>
+          
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              isBlog={false}
-              title="Crypto Meme-Token Website"
-              description="A website providing information about various crypto meme coins and crypto wallets."
-              ghLink="https://github.com/manipinnaka1125/phase2"
-              demoLink="https://crypto-meme-token99.vercel.app/"
-            />
-          </Col>
+          
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -74,15 +101,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              isBlog={false}
-              title="Uranus Website"
-              description="Developed the homepage for the Uranus website, focused on systematic altruism."
-              ghLink="https://github.com/manipinnaka1125/uranus"
-              demoLink="https://uranus-sigma.vercel.app/"
-            />
-          </Col>
+          
         </Row>
       </Container>
     </Container>
