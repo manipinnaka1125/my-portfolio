@@ -21,7 +21,7 @@ function Projects() {
               title="Learning Management System (LMS)"
              techStack="React, Spring Boot, MySQL"
               description="A full-featured LMS with course management, authentication, and role-based access using React, Spring Boot, and MySQL."
-              ghLink="https://github.com/manipinnaka1125/lms"
+              ghLink="https://github.com/manipinnaka1125/lms-frontned1"
               demoLink="https://learningmanagementsystem1.netlify.app/"
              
             />
