@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 import image from "../../Assets/image.png";
 import Tilt from "react-parallax-tilt";
+import Projects from "./components/Projects";
 import {
   AiFillGithub,
   AiOutlineTwitter,
