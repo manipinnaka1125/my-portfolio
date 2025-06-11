@@ -23,26 +23,10 @@ function Home2() {
     <Container fluid className="home-about-section" id="about">
       <Container>
         {/* Centered Button */}
-        <Row className="mb-4 justify-content-center">
-          <Col md="auto">
-            <button
-              className="btn btn-primary"
-              onClick={handleProjectClick}
-            >
-              View My Projects
-            </button>
-          </Col>
-        </Row>
+      
 
         <Row>
-              <Col md="auto">
-            <button
-              className="btn btn-primary"
-              onClick={handleProjectClick}
-            >
-              View My Projects
-            </button>
-          </Col>    
+               
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
