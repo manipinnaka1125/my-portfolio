@@ -28,9 +28,10 @@ function Home() {
 
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
-                <Link to="/project">
-                  <button className="btn btn-primary mt-4">View My Projects</button>
-                </Link>
+              <Link to="/project">
+  <button className="btn btn-primary mt-4">View My Projects</button>
+</Link>
+
               </div>
             </Col>
 
