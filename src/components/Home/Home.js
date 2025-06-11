@@ -7,12 +7,7 @@ import Home2 from "./Home2";
 import Type from "./Type";
 
 function Home() {
-  const navigate = useNavigate();
-
-  const handleProjectClick = () => {
-    navigate("/project");
-  };
-
+ 
   return (
     <section>
       <Container fluid className="home-section" id="home">
