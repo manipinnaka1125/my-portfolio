@@ -32,16 +32,7 @@ function Home() {
                 <strong className="main-name"> Mani Swaroop</strong>
               </h1>
 
-              <div style={{ padding: 50, textAlign: "left" }}>
-                <Type />
-                <button
-                  className="btn btn-primary mt-4"
-                  onClick={handleProjectClick}
-                >
-                  View My Projects
-                </button>
-              </div>
-            </Col>
+             
 
             <Col md={5} style={{ paddingBottom: 20 }}>
               <img
