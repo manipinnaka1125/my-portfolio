@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import image from '../../Assets/image.png';
+import { useNavigate } from "react-router-dom";
+import image from "../../Assets/image.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -10,9 +11,27 @@ import {
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
+  const navigate = useNavigate();
+
+  const handleProjectClick = () => {
+    navigate("/project");
+  };
+
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
+        {/* Centered Button */}
+        <Row className="mb-4 justify-content-center">
+          <Col md="auto">
+            <button
+              className="btn btn-primary"
+              onClick={handleProjectClick}
+            >
+              View My Projects
+            </button>
+          </Col>
+        </Row>
+
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
@@ -74,18 +93,17 @@ function Home2() {
                   href="https://github.com/manipinnaka1125"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <AiFillGithub />
                 </a>
               </li>
-              
               <li className="social-icons">
                 <a
                   href="https://www.linkedin.com/in/mani-swaroop-pinnaka-6a09a5257/"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <FaLinkedinIn />
                 </a>
