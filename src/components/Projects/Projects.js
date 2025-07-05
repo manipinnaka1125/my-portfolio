@@ -37,6 +37,24 @@ function Projects() {
               demoLink="https://learningmanagementsystem1.netlify.app/"
             />
           </Col>
+                <Col md={4} className="project-card">
+  <ProjectCard
+    isBlog={false}
+    title="Personal Finance Visualizer"
+    techStack="Next.js, React, Tailwind CSS, Recharts"
+    description="A comprehensive finance app to track income, expenses, budgets, and visualize financial insights with interactive charts."
+    features={[
+      "Add and manage income and expense transactions",
+      "Create and monitor budgets with visual utilization",
+      "Interactive monthly charts to analyze trends",
+      "Financial insights to help improve spending habits",
+      "Smooth scroll navigation between sections"
+    ]}
+    ghLink="https://github.com/manipinnaka1125/finance-visualizer"
+    demoLink="https://finance-visualizer-8skr.vercel.app/"
+  />
+</Col>
+
 
           <Col md={4} className="project-card">
             <ProjectCard
